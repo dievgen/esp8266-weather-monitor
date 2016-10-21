@@ -1,4 +1,4 @@
--- подготовка строчной переменной для давления
+-- preparing string variable for pressure data
 local p_dec = (math.floor((press*75)/10000))
 local p_adec = (((press*75)%10000)/1000)
 p = p_dec.."."..p_adec
