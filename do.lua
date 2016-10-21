@@ -1,6 +1,6 @@
 tmr.alarm(1, 30000, 1, function()
     print("-----------------------------------")
-    print("Читаем датчики")
+    print("Read the sensors")
     dofile("dht22.lua")
     collectgarbage()
     dofile("bmp085.lua")
